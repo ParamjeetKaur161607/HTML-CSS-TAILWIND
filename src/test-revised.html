@@ -811,7 +811,7 @@
         <!-- model -->
     <div class="h-screen bg-black/25 bg-fixed flex justify-center items-center text-gray-500">
         <div class="bg-white p-10 h-fit w-[40rem] space-y-5 relative">
-            <button type="button">
+            <button type="button" aria-label="Cross-Button">
                 <svg class="w-5 h-5 absolute top-0 right-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                     fill="none">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -839,13 +839,13 @@
                             class="outline-none p-3 border border-gray-500  placeholder:text-gray-800 w-full"
                             placeholder="Enter text">
                     </div>
-                    <div class="w-full grid grid-cols-2">
-                        <input type="radio" name="radio" id="block" class="hidden peer/block">
+                    <div class="w-full grid grid-cols-2 border-2 border-gray-600">
+                        <input type="radio" name="radio" id="block" class="hidden peer/block" checked>
                         <label for="block"
-                            class="border-2 px-8 py-2 border-gray-600 font-bold peer-checked/block:bg-slate-200 border-collapse">BLOCK</label>
+                            class="px-8 py-2 border-r border-gray-600 font-bold peer-checked/block:bg-slate-200 border-collapse">BLOCK</label>
                         <input type="radio" name="radio" id="script" class="hidden peer/scrpt">
                         <label for="script"
-                            class="border-2 px-8 py-2 border-gray-600 font-bold peer-checked/scrpt:bg-slate-200 border-collapse">SCRIPT</label>
+                            class="px-8 py-2 border-gray-600 font-bold peer-checked/scrpt:bg-slate-200 border-collapse">SCRIPT</label>
                     </div>
                     <input type="submit" value="Submit"
                         class="w-full px-8 py-2 font-bold border bg-blue-600 text-white cursor-pointer">
