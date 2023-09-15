@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test">
+    <meta name="author" content="param">
+    <meta name="Keywords" content="html, css">
+    <title>Test</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="space-y-8 text-base">
+    <!-- header -->
+    <header class="bg-gray-50 border-b sticky top-0 right-0 z-50">
+        <nav class="container mx-auto py-5 bg-gray-50 sticky top-0 right-0 z-50">
+            <ol class="flex justify-center text-gray-500 text-lg">     
+                <!-- step one        -->
+                <li class="flex flex-col justify-center items-center gap-3 font-bold text-lg text-blue-600 relative pr-8 sm:pr-20 md:pr-28 lg:pr-36 xl:pr-40 cursor-pointer">
+                    <span class="hidden xl:flex">Summary</span> 
+                    <!-- border in the background of step 1-->
+                    <div class="flex items-center -inset-0  absolute top-0 xl:top-11 left-7 md:-right-5 xl:-right-20 -z-50">
+                        <div class="w-full block border border-blue-600"></div>
+                    </div>   
+                    <!-- circle and and the div of the step 1-->
+                    <div
+                        class="h-8 w-8 rounded-full p-2 z-20 border-2 border-blue-600  bg-white flex items-center justify-center">                      
+                        <a href="#" aria-label="First-Step" class="">
+                            <span class="block h-3 w-3 rounded-full bg-blue-600"></span>
+                        </a>
+                    </div>
+                </li>
+                <!-- step 2 -->
+                <li class="flex flex-col justify-center items-center gap-3 font-bold text-lg hover:text-blue-600 relative pr-8 sm:pr-20 md:pr-28 lg:pr-36 xl:pr-40 cursor-pointer">
+                    <span class="hidden xl:flex">Contact Information</span> 
+                    <!-- border at the background of step 2-->
+                    <div class="flex items-center inset-0 absolute top-0 xl:top-11 left-5 xl:left-20 -right-5 -z-50">
+                        <div class="w-full block border border-dashed border-gray-300 flex-1"></div>
+                    </div> 
+                    <!-- circle and the div of the step 2                             -->
+                    <div
+                        class="h-8 w-8 rounded-full p-2 align-middle z-20 border-2 border-gray-300 group hover:border-blue-600 hover:border-2 relative bg-white flex items-center justify-center ">                      
+                        <a href="#" class="" aria-label="Second-Step">
+                            <span class="block h-3 w-3 rounded-full group-hover:bg-blue-600"></span>
+                        </a>
+                    </div>
+                </li>
+                <!-- step 3 -->
+                <li class="flex flex-col justify-center items-center gap-3 font-bold text-lg hover:text-blue-600 relative pr-8 sm:pr-20 md:pr-28 lg:pr-36 xl:pr-40 cursor-pointer">
+                    <span class="hidden xl:flex">Payment Information</span> 
+                    <!-- border at the background of step 3-->
+                    <div class="flex items-center inset-0 absolute top-0 xl:top-11 left-5 -right-5 -z-50">
+                        <div class="w-full block border border-dashed border-gray-300 flex-1"></div>
+                    </div>    
+                    <!-- circle and the div of the step 3                            -->                           
+                    <div
+                        class="h-8 w-8 rounded-full p-2 align-middle z-20 border-2 border-gray-300 group hover:border-blue-600 hover:border-2 relative bg-white flex items-center justify-center ">                      
+                        <a href="#" class="" aria-label="Second-Step">
+                            <span class="block h-3 w-3 rounded-full group-hover:bg-blue-600"></span>
+                        </a>
+                    </div>
+                </li>
+                <!-- step 4   -->
+                <li class="flex flex-col justify-center items-center gap-3 font-bold text-lg hover:text-blue-600 cursor-pointer">
+                    <span class="hidden xl:flex">Review</span>                                                   
+                    <div
+                        class="h-8 w-8 rounded-full p-2 align-middle z-20 border-2 border-gray-300 group hover:border-blue-600 hover:border-2 relative bg-white flex items-center justify-center ">                      
+                        <a href="#" class="" aria-label="Second-Step">
+                            <span class="block h-3 w-3 rounded-full group-hover:bg-blue-600"></span>
+                        </a>
+                    </div>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <main class="">
+        <div class="container mx-auto">
+            <form action="#" method="post">
+                <ul class="space-y-8">
+                    <!-- first list -->
+                    <li class="rounded-lg border border-gray-300 shadow">
+                        <section class="p-5 space-y-5">
+                            <div class="block space-y-5 xl:space-y-0 xl:flex xl:gap-8">
+                                <div class="aspect-square w-full xl:h-[34rem] xl:w-[34rem] flex-none">
+                                    <img src="diamond-necklace.png" alt="Main Product Image" class="h-full w-full object-cover">
+                                </div>
+                                <div class="flex-1 flex flex-col justify-between xl:w-1/2">
+                                    <header class="flex flex-col gap-2">
+                                        <div class="flex justify-between items-start">
+                                            <h2 class="font-bold text-lg text-gray-500">Oval French Cut Halo Engagement Set In 14K White Gold With A 1.00 Ct. H-Color VS2-Clarity Emerald Cut Diamond</h2>
+                                            <button type="button" aria-label="close" name="Close Button" class="gap-1 rounded-full flex items-center px-2 py-2 lg:py-0">
+                                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM15.7123 16.773L12 13.0607L8.28769 16.773L7.22703 15.7123L10.9393 12L7.22703 8.28769L8.28769 7.22703L12 10.9393L15.7123 7.22703L16.773 8.28769L13.0607 12L16.773 15.7123L15.7123 16.773Z"
+                                                        fill="gray"></path>
+                                                </svg>
+                                                <span class="text-lg hidden lg:flex">Remove</span>
+                                            </button>
+                                        </div>
+                                        <span class="text-gray-500 font-bold">Item #: RB1077-WG14</span>
+                                        <strong class="text-2xl">$1,258.78</strong>
+                                    </header>
+                                    <div class="flex gap-5 2xl:gap-10 py-3 flex-wrap items-center">
+                                        <div class="flex flex-col space-y-2">
+                                            <label for="ring-size" class="font-bold text-gray-500">Ring Size</label>
+                                            <select name="ring-size" id="ring-size" class="border w-52 p-3 text-gray-500 text-sm">
+                                                <option class="text-gray-500 px-5">Select Size</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                            </select>
+                                        </div>
+                                        <div class="flex flex-col space-y-2">
+                                            <label for="quantity" class="font-bold text-gray-500">Quantity</label>
+                                            <div class="border p-3 flex justify-between items-center">
+                                                <button type="button" aria-label="deduct" class="text-xl font-bold text-gray-500 px-2">
+                                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M5 11h14v2H5z"></path></svg>
+                                                </button>
+                                                <input type="number" name="quantity" id="quantity" class="outline-none text-center"
+                                                    value="1" min="0" max="100">
+                                                <button type="button" aria-label="add" class="text-gray-500 px-2">
+                                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M11.75 4.5a.75.75 0 01.75.75V11h5.75a.75.75 0 010 1.5H12.5v5.75a.75.75 0 01-1.5 0V12.5H5.25a.75.75 0 010-1.5H11V5.25a.75.75 0 01.75-.75z"></path></svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <fieldset class="flex flex-col space-y-2">
+                                            <legend class="font-bold text-gray-500">Whould you like to add a center Stone?</legend>
+                                            <div class="flex gap-10 py-2">
+                                                <div>
+                                                    <input type="radio" name="stone" id="yes">
+                                                    <label for="yes" class=" text-gray-500">Yes</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="stone" id="no">
+                                                    <label for="no" class=" text-gray-500">No</label>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                    <fieldset class="space-y-2">
+                                        <legend class="flex gap-1 items-center">
+                                            <h3 class="font-bold text-gray-600">Select protection Plans</h3>
+                                            <svg class="w-5 h-5 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM11 7h2v2h-2V7zm0 4h2v6h-2v-6z">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                        </legend>
+                                        <p class="text-gray-500 text-sm">Enjoy peace of mind with a care plan from jeweller's mutual</p>
+                                        <div class="flex flex-col lg:flex-row lg:max-w-xl">
+                                            <div class="flex-1">
+                                                <input type="radio" name="plan" id="no-plan" class="hidden peer/1" checked>
+                                                <label for="no-plan"
+                                                    class="border pr-16 sm:px-2 py-3 flex peer-checked/1:gap-3 justify-around sm:justify-center items-center peer-checked/1:bg-blue-600 peer-checked/1:text-white">
+                                                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"
+                                                        fill="currentColor">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M14.707 3L5.5 12.207.293 7 1 6.293l4.5 4.5 8.5-8.5.707.707z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+                                                    <span class="sm:flex sm:justify-self-center">No Plan</span>
+                                                </label>
+                                            </div>
+                                            <div class="flex-1">
+                                                <input type="radio" name="plan" id="years" class="hidden peer/2">
+                                                <label for="years"
+                                                    class="border pr-16 sm:px-2 py-3 flex peer-checked/2:gap-3 justify-around sm:justify-center items-center peer-checked/2:bg-blue-600 peer-checked/2:text-white">
+                                                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"
+                                                        fill="currentColor">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M14.707 3L5.5 12.207.293 7 1 6.293l4.5 4.5 8.5-8.5.707.707z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+                                                    <span class="flex gap-2">
+                                                        <span>3 years</span> 
+                                                        <span>$180.00</span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                            <div class="flex-1">
+                                                <input type="radio" name="plan" id="life-time" class="hidden peer/3">
+                                                <label for="life-time"
+                                                    class="border pr-16 sm:px-2 py-3 flex peer-checked/3:gap-3 justify-around sm:justify-center items-center peer-checked/3:bg-blue-600 peer-checked/3:text-white">
+                                                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"
+                                                        fill="currentColor">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M14.707 3L5.5 12.207.293 7 1 6.293l4.5 4.5 8.5-8.5.707.707z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+                                                    <span class="font-sans flex gap-2">
+                                                        <span>Lifetime</span> 
+                                                        <span>$425.00</span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div class="block sm:flex sm:gap-2 sm:items-center py-2">
+                                        <p class="font-bold text-gray-600 py-2 xl:py-0">Watch to add engraving?</p>
+                                        <a href="model.html" class="text-blue-600 flex gap-1 items-center group">
+                                            <svg class="w-4 h-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512">
+                                                <path
+                                                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z">
+                                                </path>
+                                            </svg>
+                                            <p>Add engraving <strong>$30.00</strong></p>                                    
+                                        </a>
+                                    </div>
+                                    <article class="relative w-full space-y-2">
+                                        <h3 class="mt-2 font-bold text-gray-600">Matching Items</h3>
+                                        <ul class="flex gap-3 overflow-x-auto max-w-full">
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>  
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>                                        
+                                        </ul>
+                                        <div>
+                                            <div class="w-10 absolute bottom-2 top-10 left-0 bg-gradient-to-l from-transparent to-gray-200">
+                                                <button type="button" id="left-Arrow1" aria-labelledby="left-arrow1" aria-label="left-arrow1"
+                                                    class="bg-gray-600/90 shadow rounded-full h-8 w-8 absolute top-8 left-0">
+                                                    <svg class="w-8 h-8 text-white" id="left-arrow1" width="10" height="10" stroke-width="1.5" viewBox="0 0 24 24"
+                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div class="w-10 absolute bottom-2 top-10 right-0 bg-gradient-to-r from-transparent to-gray-200">
+                                                <button type="button" aria-labelledby="Right-Arrow1" aria-label="right-arrow1"
+                                                    class="bg-gray-600/90 shadow rounded-full h-8 w-8 absolute top-8 right-0">
+                                                    <svg class="w-8 h-8 text-white rotate-180" id="Right-Arrow1" width="24" height="24" stroke-width="1.5"
+                                                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <ul class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+                                <li class="flex gap-1 sm:gap-5 border p-3 rounded-md relative group h-fit items-center hover:outline hover:outline-2 hover:outline-gray-200">
+                                    <button type="button" class=" absolute -right-2 -top-2 invisible group-hover:visible">
+                                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM15.7123 16.773L12 13.0607L8.28769 16.773L7.22703 15.7123L10.9393 12L7.22703 8.28769L8.28769 7.22703L12 10.9393L15.7123 7.22703L16.773 8.28769L13.0607 12L16.773 15.7123L15.7123 16.773Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="h-20 w-20 border-r border-l sm:flex">
+                                        <img src="diamond-necklace.png" alt="Complimentory Appraisal" class="object-cover h-full w-full">
+                                    </div>
+                                    <article class="w-full space-y-2">
+                                        <header class="flex justify-between items-center text-lg font-bold">
+                                            <h3 class="text-gray-500 max-w-sm xl:max-w-lg text-ellipsis line-clamp-1">Complimentory Appraisal</h3>
+                                            <strong class="text-lg">$00.00</strong>
+                                        </header>
+                                        <p class="text-sm text-gray-500">item #:RB1077. WG 14</p>
+                                    </article>
+                                </li>
+                                <li class="flex gap-1 sm:gap-5 border p-3 rounded-md relative group h-fit items-center hover:outline hover:outline-2 hover:outline-gray-200">
+                                    <button type="button" class=" absolute -right-2 -top-2 invisible group-hover:visible">
+                                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM15.7123 16.773L12 13.0607L8.28769 16.773L7.22703 15.7123L10.9393 12L7.22703 8.28769L8.28769 7.22703L12 10.9393L15.7123 7.22703L16.773 8.28769L13.0607 12L16.773 15.7123L15.7123 16.773Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="h-20 w-20 border-r border-l sm:flex">
+                                        <img src="diamond-necklace.png" alt="Complimentory Appraisal" class="object-cover h-full w-full">
+                                    </div>
+                                    <article class="w-full space-y-2">
+                                        <header class="flex justify-between items-center text-lg font-bold">
+                                            <h3 class="text-gray-500 max-w-sm xl:max-w-lg text-ellipsis line-clamp-1">Complimentory Appraisal</h3>
+                                            <strong class="text-lg">$00.00</strong>
+                                        </header>
+                                        <p class="text-sm text-gray-500">item #:RB1077. WG 14</p>
+                                    </article>
+                                </li>
+                            </ul>
+                        </section>
+                    </li>
+                    <!-- second list -->
+                    <li class="rounded-lg border border-gray-300 shadow">
+                        <section class="p-5 space-y-5">
+                            <div class="block space-y-5 xl:space-y-0 xl:flex xl:gap-8">
+                                <div class="aspect-square w-full xl:h-[34rem] xl:w-[34rem] flex-none">
+                                    <picture>
+                                        <source media="(min-width:34rem)" srcset="diamond-necklace.png">
+                                        <img src="diamond-necklace.png" alt="product2" class="w-full h-full object-cover">
+                                    </picture>
+                                </div>
+                                <div class="flex-1 flex flex-col justify-between xl:w-1/2">
+                                    <header class="flex flex-col gap-2">
+                                        <div class="flex justify-between items-start">
+                                            <h2 class="font-bold text-lg text-gray-500">Oval French Cut Halo Engagement Set In 14K White Gold With A 1.00 Ct. H-Color VS2-Clarity Emerald Cut Diamond</h2>
+                                            <button type="button" aria-label="close1" name="Close-Button" class="gap-1 rounded-full flex items-center px-2 py-2 lg:py-0">
+                                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM15.7123 16.773L12 13.0607L8.28769 16.773L7.22703 15.7123L10.9393 12L7.22703 8.28769L8.28769 7.22703L12 10.9393L15.7123 7.22703L16.773 8.28769L13.0607 12L16.773 15.7123L15.7123 16.773Z"
+                                                        fill="gray"></path>
+                                                </svg>
+                                                <span class="text-lg hidden lg:flex">Remove</span>
+                                            </button>
+                                        </div>
+                                        <span class="text-gray-500 font-bold">Item #: RB1077-WG14</span>
+                                        <strong class="text-2xl">$1,258.78</strong>
+                                    </header>
+                                    <div class="flex gap-5 2xl:gap-10 py-3 flex-wrap items-center">
+                                        <div class="flex flex-col space-y-2">
+                                            <label for="ring-size1" class="font-bold text-gray-500">Ring Size</label>
+                                            <select name="ring-size1" id="ring-size1" class="border w-52 p-3 text-gray-500 text-sm">
+                                                <option class="text-gray-500 px-5">Select Size</option>
+                                            </select>
+                                        </div>
+                                        <div class="flex flex-col space-y-2">
+                                            <label for="quantity1" class="font-bold text-gray-500">Quantity</label>
+                                            <div class="border p-3 flex justify-between items-center">
+                                                <button type="button" aria-label="deduct1" class="text-xl font-bold text-gray-500 px-2">
+                                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="none" viewBox="0 0 24 24"><path d="M5 11h14v2H5z"></path></svg>
+                                                </button>
+                                                <input type="number" name="quantity1" id="quantity1" class="outline-none text-center"
+                                                    value="1" min="0" max="100">
+                                                <button type="button" aria-label="add1" class="text-gray-500 px-2">
+                                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M11.75 4.5a.75.75 0 01.75.75V11h5.75a.75.75 0 010 1.5H12.5v5.75a.75.75 0 01-1.5 0V12.5H5.25a.75.75 0 010-1.5H11V5.25a.75.75 0 01.75-.75z"></path></svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <fieldset class="flex flex-col space-y-2">
+                                            <legend class="font-bold text-gray-500">Whould you like to add a center Stone?</legend>
+                                            <div class="flex gap-10 py-2">
+                                                <div>
+                                                    <input type="radio" name="stone1" id="yes1">
+                                                    <label for="yes1" class=" text-gray-500">Yes</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="stone1" id="no1">
+                                                    <label for="no1" class=" text-gray-500">No</label>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                    <fieldset class="space-y-2">
+                                        <legend class="flex gap-1 items-center">
+                                            <h3 class="font-bold text-gray-600">Select protection Plans</h3>
+                                            <svg class="w-5 h-5 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path
+                                                        d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM11 7h2v2h-2V7zm0 4h2v6h-2v-6z">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                        </legend>
+                                        <p class="text-gray-500 text-sm">Enjoy peace of mind with a care plan from jeweller's mutual</p>
+                                        <div class="flex flex-col lg:flex-row lg:max-w-xl">
+                                            <div class="flex-1">
+                                                <input type="radio" name="plans" id="no-plan1" class="hidden peer/1" checked>
+                                                <label for="no-plan1"
+                                                    class="border pr-16 sm:px-2 py-3 flex peer-checked/1:gap-3 justify-around sm:justify-center items-center peer-checked/1:bg-blue-600 peer-checked/1:text-white">
+                                                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"
+                                                        fill="currentColor">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M14.707 3L5.5 12.207.293 7 1 6.293l4.5 4.5 8.5-8.5.707.707z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+                                                    <span>No Plan</span>
+                                                </label>
+                                            </div>
+                                            <div class="flex-1">
+                                                <input type="radio" name="plans" id="years1" class="hidden peer/2">
+                                                <label for="years1"
+                                                    class="border pr-16 sm:px-2 py-3 flex peer-checked/2:gap-3 justify-around sm:justify-center items-center peer-checked/2:bg-blue-600 peer-checked/2:text-white">
+                                                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"
+                                                        fill="currentColor">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M14.707 3L5.5 12.207.293 7 1 6.293l4.5 4.5 8.5-8.5.707.707z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+                                                    <span class="flex gap-2">
+                                                        <span>3 years</span> 
+                                                        <span>$180.00</span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                            <div class="flex-1">
+                                                <input type="radio" name="plans" id="life-time1" class="hidden peer/3">
+                                                <label for="life-time1"
+                                                    class="border pr-16 sm:px-2 py-3 flex peer-checked/3:gap-3 justify-around sm:justify-center items-center peer-checked/3:bg-blue-600 peer-checked/3:text-white">
+                                                    <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15"
+                                                        fill="currentColor">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M14.707 3L5.5 12.207.293 7 1 6.293l4.5 4.5 8.5-8.5.707.707z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+                                                    <span class="flex gap-2 text-center">
+                                                        <span>Lifetime</span> 
+                                                        <span>$425.00</span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div class="flex gap-1 sm:gap-2 items-center sm:py-2 flex-wrap">
+                                        <p class=" text-gray-600 py-2 xl:py-0">
+                                            <span class="font-bold">Encraving:</span>
+                                            Script Lettering                                            
+                                        </p>
+                                        <q class="font-bold">Ucodesoft</q>
+                                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM15.7123 16.773L12 13.0607L8.28769 16.773L7.22703 15.7123L10.9393 12L7.22703 8.28769L8.28769 7.22703L12 10.9393L15.7123 7.22703L16.773 8.28769L13.0607 12L16.773 15.7123L15.7123 16.773Z"
+                                                fill="gray"></path>
+                                        </svg>
+                                    </div>
+                                    <article class="relative w-full space-y-2">
+                                        <h3 class="mt-2 font-bold text-gray-600">Matching Items</h3>
+                                        <ul class="flex gap-3 overflow-x-auto max-w-full">
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>  
+                                            <li>
+                                                <div class="aspect-square h-24 border rounded">
+                                                    <img src="diamond-necklace.png" alt="1" class="h-full w-full object-cover">
+                                                </div>
+                                            </li>                                        
+                                        </ul>
+                                        <div>                                            
+                                            <div class="w-10 absolute bottom-2 top-10 left-0 bg-gradient-to-l from-transparent to-gray-200">
+                                                <button type="button" id="left-Arrow" aria-labelledby="left-arrow" aria-label="left-arrow"
+                                                    class="bg-gradient-to-t from-gray-600 to-gray-600 shadow rounded-full h-8 w-8 absolute top-8 left-0">
+                                                    <svg class="w-8 h-8 text-white" id="left-arrow" width="10" height="10" stroke-width="1.5" viewBox="0 0 24 24"
+                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div class="w-10 absolute bottom-2 top-10 right-0 bg-gradient-to-r from-transparent to-gray-200">
+                                                <button type="button" aria-labelledby="Right-Arrow" aria-label="right-arrow"
+                                                    class="bg-gradient-to-t from-gray-600 to-gray-600 shadow rounded-full h-8 w-8 absolute top-8 right-0">
+                                                    <svg class="w-8 h-8 text-white rotate-180" id="Right-Arrow" width="24" height="24" stroke-width="1.5"
+                                                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <ul class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+                                <li class="flex gap-1 sm:gap-5 border p-3 rounded-md relative group h-fit items-center hover:outline hover:outline-2 hover:outline-gray-200">
+                                    <button type="button" class=" absolute -right-2 -top-2 invisible group-hover:visible">
+                                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM15.7123 16.773L12 13.0607L8.28769 16.773L7.22703 15.7123L10.9393 12L7.22703 8.28769L8.28769 7.22703L12 10.9393L15.7123 7.22703L16.773 8.28769L13.0607 12L16.773 15.7123L15.7123 16.773Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="h-20 w-20 border-r border-l sm:flex">
+                                        <img src="diamond-necklace.png" alt="Complimentory Appraisal" class="object-cover h-full w-full">
+                                    </div>
+                                    <article class="w-full space-y-2">
+                                        <header class="flex justify-between items-center text-lg font-bold">
+                                            <h3 class="text-gray-500 max-w-sm xl:max-w-lg text-ellipsis line-clamp-1">Complimentory Appraisal</h3>
+                                            <strong class="text-lg">$00.00</strong>
+                                        </header>
+                                        <p class="text-sm text-gray-500">item #:RB1077. WG 14</p>
+                                    </article>
+                                </li>
+                                <li class="flex gap-1 sm:gap-5 border p-3 rounded-md relative group h-fit items-center hover:outline hover:outline-2 hover:outline-gray-200">
+                                    <button type="button" class=" absolute -right-2 -top-2 invisible group-hover:visible">
+                                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM15.7123 16.773L12 13.0607L8.28769 16.773L7.22703 15.7123L10.9393 12L7.22703 8.28769L8.28769 7.22703L12 10.9393L15.7123 7.22703L16.773 8.28769L13.0607 12L16.773 15.7123L15.7123 16.773Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="h-20 w-20 border-r border-l sm:flex">
+                                        <img src="diamond-necklace.png" alt="Complimentory Appraisal" class="object-cover h-full w-full">
+                                    </div>
+                                    <article class="w-full space-y-2">
+                                        <header class="flex justify-between items-center text-lg font-bold">
+                                            <h3 class="text-gray-500 max-w-sm xl:max-w-lg text-ellipsis line-clamp-1">Complimentory Appraisal</h3>
+                                            <strong class="text-lg">$00.00</strong>
+                                        </header>
+                                        <p class="text-sm text-gray-500">item #:RB1077. WG 14</p>
+                                    </article>
+                                </li>
+                                <li class="flex gap-1 sm:gap-5 border p-3 rounded-md relative group h-fit items-center hover:outline hover:outline-2 hover:outline-gray-200">
+                                    <button type="button" class=" absolute -right-2 -top-2 invisible group-hover:visible">
+                                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM15.7123 16.773L12 13.0607L8.28769 16.773L7.22703 15.7123L10.9393 12L7.22703 8.28769L8.28769 7.22703L12 10.9393L15.7123 7.22703L16.773 8.28769L13.0607 12L16.773 15.7123L15.7123 16.773Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="h-20 w-20 border-r border-l sm:flex">
+                                        <img src="diamond-necklace.png" alt="Complimentory Appraisal" class="object-cover h-full w-full">
+                                    </div>
+                                    <article class="w-full space-y-2">
+                                        <header class="flex justify-between items-center text-lg font-bold">
+                                            <h3 class="text-gray-500 max-w-sm xl:max-w-lg text-ellipsis line-clamp-1 capitalize">Complimentory Appraisal</h3>
+                                            <strong class="text-lg">$00.00</strong>
+                                        </header>
+                                        <p class="text-sm text-gray-500">item #:RB1077. WG 14</p>
+                                    </article>
+                                </li>
+                                
+                            </ul>
+                        </section>
+                    </li>
+                </ul>
+                <!-- section for form submission -->
+                <section class="container mx-auto py-5 mt-10 border rounded-md shadow block lg:flex">
+                    <div class="p-5 lg:w-1/2 space-y-5 pb-5">
+                        <label for="editable-text" class="text-xl font-bold">Special Instructions</label>
+                        <textarea name="editable-text" id="editable-text" rows="5"
+                            class="rounded border p-5 w-full resize-none -indent-[7.7rem] outline-none text-gray-400 font-bold">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nobis, enim, fugiat temporibus unde fuga, optio deserunt error ipsa assumenda blanditiis. Voluptas exercitationem similique, praesentium obcaecati saepe molestiae? Accusamus, adipisci.
+                        </textarea>
+                        <h2 class="text-xl font-bold">Shipping</h2>
+                        <dl class="block space-y-3 lg:flex lg:justify-between lg:items-center">
+                            <div class="space-y-1">
+                                <dt class="text-gray-500">Estimated Shipping Date</dt>
+                                <dd class="font-bold text-gray-500">
+                                    <time datetime="2023-08-11">Friday, August 11, 2023</time>
+                                </dd>
+                            </div>
+                            <div class="space-y-1">
+                                <dt class="text-gray-500">Shipping Method</dt>
+                                <dd class="font-bold text-gray-500">Free FedEx Overnigh</dd>
+                            </div>
+                        </dl>
+                        <div class="rounded-md bg-gray-50 p-5 space-y-5 text-sm border">
+                            <address class="text-gray-600 not-italic">For Saturday delivery, call customer services 
+                                <a href="tel:1234-345-345" class="text-gray-600 font-bold">1234-345-345.</a>
+                            APO/FPO orders will ship via USPS priority Mail. 
+                            </address>
+                            <div class="block space-y-3 sm:space-y-0 lg:flex lg:justify-between w-full text-gray-500">
+                                <p>View our 
+                                    <a href="#" class="text-blue-600 underline decoration-blue-600">Shiping policy and Expedite options</a>
+                                    </p>                                
+                                <dl class="block sm:flex sm:gap-1">
+                                    <dt>For Phone order please mention: </dt>
+                                    <dd><Strong>QTHMHT</Strong></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 p-5 flex flex-col justify-between">
+                        <dl class="w-full divide-y-2">
+                            <div class="flex justify-between w-full py-5">
+                                <dt class="text-gray-500 font-bold">Subtotal</dt>
+                                <dd class="text-xl font-bold">$5,364.75</dd>
+                            </div>
+                            <div class="flex justify-between w-full py-5">
+                                <dt class="text-gray-500 font-bold">Shipping</dt>
+                                <dd class="text-xl font-bold">Free</dd>
+                            </div>
+                            <div class="flex justify-between w-full py-5">
+                                <dt class="text-gray-500 font-bold">Total Payable</dt>
+                                <dd class="text-xl font-bold">$5,364.75</dd>
+                            </div>
+                        </dl>
+                        <div class="w-full space-y-4">
+                            <label for="coupon" class="text-gray-500 text-sm">Coupon Code</label>
+                            <div class="flex justify-between border border-gray-300 px-5 rounded-md">
+                                <input type="text" name="coupon" id="coupon" class="w-full py-5  outline-none"
+                                    placeholder="Enter Code">
+                                <button type="button" class="border-none text-blue-600">Apply</button>
+                            </div>
+                            <input type="submit" value="Continue"
+                            class="w-full p-5 borde bg-blue-600 text-white hover:text-gray-200 font-bold text-lg rounded-md cursor-pointer">
+                        </div>
+                    </div>
+                </section>
+            </form>
+        </div>
+        <!-- section for payment option -->
+        <section class="container mx-auto p-20 space-y-16">
+            <h2 class="text-center font-bold text-xl">Payment Choice with Flexibility</h2>
+            <ul class="flex items-start justify-center xl:justify-evenly gap-20 flex-wrap text-sm">
+                <li>
+                    <figure class="space-y-5">
+                        <div class="h-20 bg-white">
+                            <img src="card.png" alt="Debit Card" class="h-full w-full object-cover hover:opacity-70">
+                        </div>
+                        <figcaption class="text-center text-gray-500">Debit or Credit Card</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="space-y-5">
+                        <div class="h-20 bg-white">
+                            <img src="paypal.png" alt="Paypal" class="h-full w-full object-cover hover:opacity-70">
+                        </div>
+                        <figcaption class="text-center text-gray-500">Paypal</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="space-y-5">
+                        <div class="h-20 bg-white">
+                            <img src="split-pay.png" alt="Split Pay" class="h-full w-full object-cover hover:opacity-70">
+                        </div>
+                        <figcaption class="text-center text-gray-500">Split Pay</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="space-y-5">
+                        <div class="h-20 bg-white">
+                            <img src="affirm.png" alt="Affirm" class="h-full w-full object-cover hover:opacity-70">
+                        </div>
+                        <figcaption class="text-center text-gray-500">Financing with Affirm</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="space-y-5">
+                        <div class="h-20 bg-white">
+                            <img src="wire.png" alt="Wire Transfirm" class="h-full w-full object-cover hover:opacity-70">
+                        </div>
+                        <figcaption class="text-center text-gray-500">Wire Transfirm</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="space-y-5">
+                        <div class="h-20 bg-white">
+                            <img src="phone-pay.png" alt="Pay By Phone" class="h-full w-full object-cover hover:opacity-70">
+                        </div>
+                        <figcaption class="text-center text-gray-500">Pay By Fone</figcaption>
+                    </figure> 
+                </li>               
+            </ul>
+        </section>
+        <!-- last section for jewelry care -->
+        <section class="bg-gray-50 pb-20">
+            <div class="container mx-auto px-5 lg:px-32 py-10">
+                <header>
+                    <div class="space-y-2 flex justify-between items-end flex-wrap">
+                        <div class="space-y-10">
+                            <div class="space-y-2">
+                                <h2 class="font-bold text-xl">Keep Your Jewelry Sparkling and Safe</h2>
+                                <p class="text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, quisquam.</p>
+                            </div>                    
+                            <button type="button" class="py-2 px-5 bg-blue-600 text-white">Purchase a Care Plan</button>
+                        </div>
+                        <a href="#" class="text-blue-600 underline decoration-blue-600 font-bold">Explore All</a>
+                    </div>
+                </header>
+                <div class="space-y-5 mt-10">                
+                    <ul class="flex gap-14 justify-center xl:justify-around flex-wrap">
+                        <li class="space-y-2">
+                            <figure class="space-y-3">
+                                <div class="w-[7.5rem] border bg-black">
+                                    <img src="diamond-necklace.png" alt="Foaming Cleaner" class=" aspect-square w-full h-full object-cover hover:opacity-90">
+                                </div>
+                                <figcaption class="flex flex-col items-center gap-2 text-center">
+                                    <h3 class="font-bold text-sm text-gray-700 w-full">Foaming Cleaner</h3>
+                                    <strong class="font-bold text-center text-base">$12.00</strong>                                    
+                                </figcaption>
+                            </figure>
+                            <button type="button" class="py-2 px-4 border border-blue-600 text-blue-600 rounded hover:text-white hover:bg-blue-600 w-full text-xs">Add To Cart</button>
+                        </li>
+                        <li class="space-y-2">
+                            <figure class="space-y-3">
+                                <div class="w-[7.5rem] border bg-black">
+                                    <img src="diamond-necklace.png" alt="Foaming Cleaner" class=" aspect-square w-full h-full object-cover hover:opacity-90">
+                                </div>
+                                <figcaption class="flex flex-col items-center gap-2 text-center">
+                                    <h3 class="font-bold text-sm text-gray-700 w-full">Foaming Cleaner</h3>
+                                    <strong class="font-bold text-center text-base">$12.00</strong>                                    
+                                </figcaption>
+                            </figure>
+                            <button type="button" class="py-2 px-4 border border-blue-600 text-blue-600 rounded hover:text-white hover:bg-blue-600 w-full text-xs">Add To Cart</button>
+                        </li>
+                        <li class="space-y-2">
+                            <figure class="space-y-3">
+                                <div class="w-[7.5rem] border bg-black">
+                                    <img src="diamond-necklace.png" alt="Foaming Cleaner" class=" aspect-square w-full h-full object-cover hover:opacity-90">
+                                </div>
+                                <figcaption class="flex flex-col items-center gap-2 text-center">
+                                    <h3 class="font-bold text-sm text-gray-700 w-full">Foaming Cleaner</h3>
+                                    <strong class="font-bold text-center text-base">$12.00</strong>                                    
+                                </figcaption>
+                            </figure>
+                            <button type="button" class="py-2 px-4 border border-blue-600 text-blue-600 rounded hover:text-white hover:bg-blue-600 w-full text-xs">Add To Cart</button>
+                        </li>
+                        <li class="space-y-2">
+                            <figure class="space-y-3">
+                                <div class="w-[7.5rem] border bg-black">
+                                    <img src="diamond-necklace.png" alt="Foaming Cleaner" class=" aspect-square w-full h-full object-cover hover:opacity-90">
+                                </div>
+                                <figcaption class="flex flex-col items-center gap-2 text-center">
+                                    <h3 class="font-bold text-sm text-gray-700 w-full">Foaming Cleaner</h3>
+                                    <strong class="font-bold text-center text-base">$12.00</strong>                                    
+                                </figcaption>
+                            </figure>
+                            <button type="button" class="py-2 px-4 border border-blue-600 text-blue-600 rounded hover:text-white hover:bg-blue-600 w-full text-xs">Add To Cart</button>
+                        </li>
+                        <li class="space-y-2">
+                            <figure class="space-y-3">
+                                <div class="w-[7.5rem] border bg-black">
+                                    <img src="diamond-necklace.png" alt="Foaming Cleaner" class=" aspect-square w-full h-full object-cover hover:opacity-90">
+                                </div>
+                                <figcaption class="flex flex-col items-center gap-2 text-center">
+                                    <h3 class="font-bold text-sm text-gray-700 w-full">Foaming Cleaner</h3>
+                                    <strong class="font-bold text-center text-base">$12.00</strong>                                    
+                                </figcaption>
+                            </figure>
+                            <button type="button" class="py-2 px-4 border border-blue-600 text-blue-600 rounded hover:text-white hover:bg-blue-600 w-full text-xs">Add To Cart</button>
+                        </li>
+                        <li class="space-y-2">
+                            <figure class="space-y-3">
+                                <div class="w-[7.5rem] border bg-black">
+                                    <img src="diamond-necklace.png" alt="Foaming Cleaner" class=" aspect-square w-full h-full object-cover hover:opacity-90">
+                                </div>
+                                <figcaption class="flex flex-col items-center gap-2 text-center">
+                                    <h3 class="font-bold text-sm text-gray-700 w-full">Foaming Cleaner</h3>
+                                    <strong class="font-bold text-center text-base">$12.00</strong>                                    
+                                </figcaption>
+                            </figure>
+                            <button type="button" class="py-2 px-4 border border-blue-600 text-blue-600 rounded hover:text-white hover:bg-blue-600 w-full text-xs">Add To Cart</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- model -->
+    <div class="h-screen bg-black/25 bg-fixed flex justify-center items-center text-gray-500">
+        <div class="bg-white p-10 h-fit w-[40rem] space-y-5 relative">
+            <button type="button">
+                <svg class="w-5 h-5 absolute top-0 right-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    fill="none">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 12 6 6m6 6 6 6m-6-6 6-6m-6 6-6 6"></path>
+                </svg>
+            </button>
+            <h2 class="text-2xl font-bold text-center">ENGRAVE YOUR RING</h2>
+            <p class="leading-6 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Optio eligendi dicta quidem iusto cupiditate ipsa! Nemo, dicta nobis.
+                Voluptas, ullam asperiores. Modi praesentium, illo eos cum vitae tenetur vel
+                aliquam!</p>
+            <div class="lg:flex block">
+                <div class="lg:w-1/2 mt-16 relative flex flex-col items-center justify-center">
+                    <div class="h-32 w-[15rem]">
+                        <img src="ring.jpg" alt="ring" class="h-full w-full object-cover">
+                    </div>
+                    <div class="absolute top-[6rem] lg:top-[6.5rem] xl:top-[6.5rem] xl:left-[7rem] font-bold">
+                        <span>PARAM</span>                        
+                    </div>
+                </div>
+                <form action="#" class="mt-5 lg:mt-0 lg:w-1/2 pl-10 space-y-5">
+                    <div class="space-y-2">
+                        <label for="engraving-text" class="text-gray-500">Engraving-Text</label>
+                        <input type="text" name="engraving-text" id="engraving-text"
+                            class="outline-none p-3 border border-gray-500  placeholder:text-gray-800 w-full"
+                            placeholder="Enter text">
+                    </div>
+                    <div class="w-full grid grid-cols-2">
+                        <input type="radio" name="radio" id="block" class="hidden peer/block">
+                        <label for="block"
+                            class="border-2 px-8 py-2 border-gray-600 font-bold peer-checked/block:bg-slate-200 border-collapse">BLOCK</label>
+                        <input type="radio" name="radio" id="script" class="hidden peer/scrpt">
+                        <label for="script"
+                            class="border-2 px-8 py-2 border-gray-600 font-bold peer-checked/scrpt:bg-slate-200 border-collapse">SCRIPT</label>
+                    </div>
+                    <input type="submit" value="Submit"
+                        class="w-full px-8 py-2 font-bold border bg-blue-600 text-white cursor-pointer">
+                </form>
+            </div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>

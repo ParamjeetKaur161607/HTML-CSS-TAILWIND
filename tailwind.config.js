@@ -4,8 +4,11 @@ module.exports = {
   theme: {
         extend: {
       screens: {
-        '2xl':'1436px',
-      }
+        '2xl':'1436px'
+      },
+      fontFamily:{
+        'jost': ['Jost'],
+      },
     },
   },
   plugins: [],
