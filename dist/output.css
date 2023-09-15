@@ -603,6 +603,10 @@ input[type=number]::-webkit-inner-spin-button,
   visibility: hidden;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -766,10 +770,6 @@ input[type=number]::-webkit-inner-spin-button,
 
 .h-full {
   height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .w-10 {
@@ -1103,10 +1103,6 @@ input[type=number]::-webkit-inner-spin-button,
   --tw-gradient-to: #4b5563 var(--tw-gradient-to-position);
 }
 
-.bg-fixed {
-  background-attachment: fixed;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1162,6 +1158,11 @@ input[type=number]::-webkit-inner-spin-button,
   padding-bottom: 0.5rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1206,10 +1207,6 @@ input[type=number]::-webkit-inner-spin-button,
 
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-jost {
-  font-family: Jost;
 }
 
 .text-2xl {
